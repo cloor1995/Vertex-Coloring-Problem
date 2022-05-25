@@ -4,7 +4,7 @@
 set numbers:= { 1..81}; 
 
 #all branches which has to be in a conflict
-set pair:= { read "Kanten.txt" as "<1n, 2n>" comment "#" }; 
+set pair:= { read "Edges.txt" as "<1n, 2n>" comment "#" }; 
 
 #maximum amount of colors
 set colors := {1..9}; 
